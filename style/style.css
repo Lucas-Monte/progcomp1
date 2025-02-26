@@ -34,9 +34,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 45px;
+    gap: 35px;
 }
 
+.apresentation h2{
+    padding-bottom: 5px;
+}
+
+.apresentation h3{
+    padding-bottom: 5px;
+}
 
 .social-midias {
     display: flex;
