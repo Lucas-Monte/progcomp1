@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Identificar um documento html 5 -->
+<html lang="pt-br"> <!-- Elemento Raiz-->
+<head> <!--Cabeça da página-->
+    <meta charset="UTF-8"> <!--Sistema de codificação do português-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Página terá a largura do dispositivo-->
+    <title>Profile Card</title> <!--Título da página-->
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body> <!--Corpo da página-->
+    <div class="container">
+        <div class="picture"> <!--Divisão lógica de conteúdo-->
+            <img src="assets/fotoperfil.png" alt="foto de Lucas Monteiro">
+        </div>
+        <div class="personal-information">   
+            <div class="apresentation"> 
+                <h2>Lucas Monteiro</h2>
+                <h3>Engenharia de Software</h3>
+                <p>Conheça mais sobre mim</p>
+            </div>
+            <div class="social-midias">    
+                <a href="https://github.com/Lucas-Monte">
+                    <button onclick="mensagem()">GitHub</button>
+                </a>    
+                <a href="https://www.linkedin.com/in/lucas-monteiro-4ba813317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <button onclick="mensagem()">Linkedin</button>
+                </a>
+                <a href="https://www.instagram.com/lucas_monteiro107?igsh=MW5jN3dmYmtxeW05MQ%3D%3D&utm_source=qr">
+                    <button onclick="mensagem()">Instagram</button>
+                </a>
+                <button onclick="mensagem()">Seguir</button>
+            </div>    
+        </div>
+    </div>    
+</body>
+</html>

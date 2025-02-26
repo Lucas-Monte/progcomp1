@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte*/
+    display: flex; /*usa o flexbox*/
+    justify-content: center; /*centralizar na horizontal*/
+    height: 100vh; /*altura da página na vertical, o vh (vertical height) seria todo conteudo dela*/
+    align-items: center; /*alinha na vertical*/
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.picture img {
+    margin-right: 25px;
+    box-shadow: 6px 10px aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+}
+
+.personal-information {
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 6px 10px aquamarine;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+
+
+.social-midias {
+    display: flex;
+    justify-content: center;
+}
+
+.social-midias button {
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
